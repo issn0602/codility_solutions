@@ -1,6 +1,5 @@
-def Solution(N):
+def solution(N):
     val = bin(N)[2:]
-    print(val)
     current = 0
     count = 0
     for i in val:
@@ -12,4 +11,8 @@ def Solution(N):
             count += 1
     return(current)
 
-print(Solution(1041))
+# Test 1
+print(solution(1041))
+
+#Test 2
+print(solution(15))
