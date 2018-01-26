@@ -18,3 +18,11 @@ def solution(S, P, Q):
             marr[i] = 3
         elif 'T' in sstr:
             marr[i] = 4
+    
+    return marr
+
+# Test 1
+S = "CAGCCTA"
+P = [ 2, 5, 0 ]
+Q = [ 4, 5, 6 ]
+print(solution(S,P,Q))
